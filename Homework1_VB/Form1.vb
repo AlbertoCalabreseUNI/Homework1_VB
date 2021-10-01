@@ -73,4 +73,8 @@ Public Class Form1
             ball.Draw(g)
         Next
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Me.RichTextBox1.Text = "Hello! Welcome to Statistics!"
+    End Sub
 End Class
